@@ -1,0 +1,57 @@
+.superscript {
+    font-size: .83em;
+    line-height: 0.5em;
+    vertical-align: baseline;
+    position: relative;
+    color: white;
+    border-radius: 20px;
+    background-color: red;
+    top: -0.4em;
+}
+
+.main-content{
+	background-image: url('images/Good-morning-shiny-with-green-scenery1.jpg');
+	height: 800px;
+}
+
+.content{
+	background-color: white;
+	border-radius: 15px;
+	margin-top: 20px;
+	height: 700px;
+	padding:25px;
+
+}
+
+table.table-style-two {
+	font-family: verdana, arial, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #3A3A3A;
+	border-collapse: collapse;
+}
+table.table-style-two th {
+	border-width: 1px;
+	padding: 10px 50px;
+	border-style: solid;
+	border-color: #003966;
+	background-color: #0073C6;
+	color: white;
+	font-weight: bold;
+	font-size: 13px;
+	width: 20px;
+}
+ 
+table.table-style-two tr:hover td {
+	background-color: #DFEBF1;
+}
+
+table.table-style-two td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #517994;
+	background-color: #ffffff;
+	text-align: center;
+}	

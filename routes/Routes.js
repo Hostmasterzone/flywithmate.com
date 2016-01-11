@@ -1,6 +1,15 @@
 Router.route('/', function () {
-  this.layout('ResponsiveLayout');
+  //this.layout('ResponsiveLayout');
   this.render('Home');
+});
+
+
+Router.route('/findCompanion', function () {
+  this.render('findCompanion');
+});
+
+Router.route('/beCompanion', function () {
+  this.render('beCompanion');
 });
 
 if (Meteor.isClient) {

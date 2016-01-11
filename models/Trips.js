@@ -2,15 +2,25 @@ Trips = new Mongo.Collection('Trips');
 
 Trips.attachSchema(
     new SimpleSchema({
-    title: {
-      type: String
-    },
-    content: {
-      type: String
+    userID:{
+      type:String,
+      denyUpdate:true
     },
     createdAt: {
       type: Date,
       denyUpdate: true
+    },
+    startDate:{
+      type:Date      
+    },
+    endDate: {
+      type:Date
+    },
+    fromCity:{
+      type:String
+    },
+    toCity:{
+      type:String
     }
   })
 );
